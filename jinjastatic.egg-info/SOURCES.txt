@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jinjastatic.egg-info/PKG-INFO
+jinjastatic.egg-info/SOURCES.txt
+jinjastatic.egg-info/dependency_links.txt
+jinjastatic.egg-info/entry_points.txt
+jinjastatic.egg-info/requires.txt
+jinjastatic.egg-info/top_level.txt

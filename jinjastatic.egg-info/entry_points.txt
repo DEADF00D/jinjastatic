@@ -1,0 +1,2 @@
+[console_scripts]
+jinjastatic = jinjastatic.jinjastatic_tool:main

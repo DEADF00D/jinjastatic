@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jinjastatic
+Version: 0.1.0
+Summary: A tool for rendering Jinja templates with static files and HTML minification.
+Home-page: https://github.com/yourusername/jinjastatic
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: Jinja2
+Requires-Dist: jinja_markdown
+Requires-Dist: htmlmin
+Requires-Dist: rich
+
+# Hello world
