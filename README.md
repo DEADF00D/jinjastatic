@@ -95,7 +95,7 @@ Or send it to any static hosting platform.
 You can build an extensible and easy to maintain blog like so:
 
 `blog.html`
-```
+```html
 {% set articles = [
   { "title": "My first post!", "path": "/blog/my-first-post.html" }
   { "title": "My second post!", "path": "/blog/my-second-post.html" }
@@ -106,19 +106,19 @@ You can build an extensible and easy to maintain blog like so:
 {% endfor %}
 ```
 `/blog/my-first-post.html`
-```
+```html
 <h1>My first blog post!</h1>
 ```
 `/blog/my-second-post.html`
-```
+```html
 <h1>My second blog post!</h1>
 ```
 `config.yaml`
-```
+```yaml
 pages:
-  - 
-  - /blog/my-first-post.html
-  - /blog/my-second-post.html
+  - blog.html
+  - blog/my-first-post.html
+  - blog/my-second-post.html
 ```
 
 In the future you can just create more page extending the same main template, and add elements to your `article` array.
